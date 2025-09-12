@@ -71,6 +71,14 @@
 .nav-links a.active2 {
   color: orangered;
 }
+
+.nav-links a.active3 {
+  color: orangered;
+}
+
+.nav-links a.active4 {
+  color: orangered;
+}
 .schedule-btn {
   display: flex;
   align-items: center;
@@ -279,12 +287,14 @@ padding: 60px 150px;
 
 /* video section end */
 .deals{
-  margin: 80px auto;
+    margin: 90px  auto;
+background-color: whitesmoke;
+height: 700px;
 
 }
 .deal-tag{
   margin: 80px;
-  margin-top: 0px;
+ 
 }
 .deal-tag1{
   color: orangered;
@@ -715,3 +725,76 @@ footer {
   padding: 6px 8px;
   border: 1px solid orangered;
 }
+
+/* properties section end */
+
+
+.property-detail {
+  margin: 50px;
+  display: flex;
+
+}
+
+.proper img {
+  width: 700px;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.proper p {
+  margin: 30px;
+  background-color: rgb(248, 202, 184);
+  width: 100px;
+  text-align: center;
+  padding: px 20px;
+}
+
+.proper h3 {
+  margin: 30px;
+}
+
+.cards1 {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  padding: 10px 20px;
+  gap: 200px;
+  margin-left: 150px;
+}
+
+.best {
+  padding: 0px 100px;
+} 
+.cards1{
+   border: 1px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}
+.cards1 img {
+  width: 40px;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.property-left{
+ margin: 90px;
+ width: 50%;
+}
+
+.property-tag1 {
+  color: orangered;
+  margin-bottom: 1px;
+}
+
+.accordion {
+  width: 90%;
+  padding: 10px;
+  margin: 15px 0;
+  border-left: 3px solid white;
+}
+
+#active {
+  color: orangered;
+} 
