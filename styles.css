@@ -1,3 +1,5 @@
+/* Header Section Starts Here */
+
 .top-header .container {
   display: flex;
   justify-content: space-between;
@@ -6,9 +8,11 @@
   max-width: 1200px;
   margin: auto;
 }
-.left i{
+
+.left i {
   color: orangered;
 }
+
 .top-header .left span {
   margin-right: 20px;
 }
@@ -19,29 +23,32 @@
   font-size: x-large;
   cursor: pointer;
 }
-.right i{
+
+.right i {
   color: lightgray;
   border-radius: 50%;
 }
 
 .right :hover {
- 
+
   border-radius: 80px;
   transform: scale(1.05);
 }
-/* header end */
+
+/* Header Section Ends Here */
+
+/* Nav Section Starts Here */
 
 .navbar {
   border-bottom: 1px solid;
 }
 
-.navbar .container {
+nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2px 1px;
   width: 95%;
- 
 }
 
 .logo {
@@ -54,13 +61,11 @@
   list-style: none;
   display: flex;
   gap: 40px;
+  margin-left: 300px;
 }
 
-.nav-links li {
+.nav-links li a {
   margin-left: 20px;
-}
-
-.nav-links a {
   text-decoration: none;
   color: black;
 }
@@ -68,6 +73,7 @@
 .nav-links a.active1 {
   color: orangered;
 }
+
 .nav-links a.active2 {
   color: orangered;
 }
@@ -79,6 +85,7 @@
 .nav-links a.active4 {
   color: orangered;
 }
+
 .schedule-btn {
   display: flex;
   align-items: center;
@@ -87,16 +94,16 @@
   color: orangered;
   font-weight: bold;
   padding: 2px 0px;
-  border: none;
+  width: 170px;
   border-radius: 25px;
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
-  transition: 0.3s ease;
+  margin-bottom: 10px;
+
 }
 
 .schedule-btn:hover {
-  opacity: 0.9;
   transform: scale(1.05);
 }
 
@@ -104,18 +111,18 @@
   background-color: orangered;
   color: white;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
 }
- /* nav bar end */
+
+/* Nav Section Ends Here */
+
+/* Hero Section Starts Here */
+
 .hero {
   background: url('./assets/images/banner-01.jpg') no-repeat center center/cover;
   height: 80vh;
-
 }
 
 .hero .overlay {
@@ -128,11 +135,12 @@
 
 .hero-text {
   color: white;
+  margin-left: 200px;
 }
 
 .tag {
   background: white;
-  color:black;
+  color: black;
   font-size: 16px;
   display: inline-block;
   margin-bottom: 10px;
@@ -140,7 +148,8 @@
   width: 120px;
   height: 25px;
 }
-.tag1{
+
+.tag1 {
   color: orangered;
   background-color: white;
 }
@@ -148,15 +157,16 @@
 .hero h1 {
   font-size: 50px;
   font-weight: bold;
-  line-height: 1.2;
 }
-/* hero end  */
+
+/* Hero Section Ends Here */
+
+/* Featured Section Starts Here */
 
 .featured {
   display: flex;
   gap: 70px;
   margin: 60px auto;
-
 }
 
 .featured img {
@@ -191,9 +201,10 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: 450px;
-
 }
-/* featured section end */
+
+/* Video Section Starts Here */
+
 .video-bg {
   height: 500px;
   width: 100%;
@@ -201,7 +212,7 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: relative;
-padding: 60px 150px;
+  padding: 60px 150px;
 }
 
 .video-frame {
@@ -215,16 +226,15 @@ padding: 60px 150px;
   left: 350px;
 }
 
-.video-tag{
+.video-tag {
   color: orangered;
   text-align: center;
-
 }
-.video-bg h2{
-  color:white;
+
+.video-bg h2 {
+  color: white;
   text-align: center;
 }
-
 
 .play-btn {
   position: absolute;
@@ -249,18 +259,17 @@ padding: 60px 150px;
   scale: 1.06;
   background-color: rgb(253, 204, 187);
 }
+
 .stats {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 250px;
-
-
 }
 
 .stat {
-  text-align: center; 
+  text-align: center;
   background: rgb(248, 211, 198);
   padding: 12px 16px;
   border-radius: 20px;
@@ -268,8 +277,6 @@ padding: 60px 150px;
   justify-content: center;
   align-items: center;
   gap: 20px;
- 
-
 }
 
 .stat h3 {
@@ -285,41 +292,47 @@ padding: 60px 150px;
   color: black;
 }
 
-/* video section end */
-.deals{
-    margin: 90px  auto;
-background-color: whitesmoke;
-height: 700px;
+/* Video Section Ends Here */
+
+/* Deals Section Starts Here */
+
+.deals {
+  margin: 90px auto;
+  background-color: whitesmoke;
+  height: 700px;
 
 }
-.deal-tag{
+
+.deal-tag {
   margin: 80px;
- 
+
 }
-.deal-tag1{
+
+.deal-tag1 {
   color: orangered;
 }
-.deal-button{
+
+.deal-button {
   display: flex;
   align-items: flex-end;
   gap: 350px;
 }
 
-.deal-content{
+.deal-content {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 40px;
   flex-wrap: wrap;
-margin-left: 50px;
+  margin-left: 50px;
 }
+
 .deal-left ul {
   list-style: none;
   border: 1px solid whitesmoke;
   border-radius: 12px;
   padding: 20px;
   width: 220px;
-
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
   margin-top: 40px;
 }
@@ -333,22 +346,23 @@ margin-left: 50px;
 }
 
 .deal-middle img {
-width: 450px;
+  width: 450px;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
+
 .deal-right {
   flex: 1;
   min-width: 280px;
   max-width: 420px;
 }
+
 .buttons {
   display: flex;
   justify-content: start;
- margin-bottom: 70px;
- gap: 30px;
- align-items: start;
-
+  margin-bottom: 70px;
+  gap: 30px;
+  align-items: start;
 }
 
 .buttons button {
@@ -373,18 +387,17 @@ width: 450px;
   gap: 10px;
   background: black;
   color: white;
-  
   border: none;
   border-radius: 25px;
   cursor: pointer;
   text-decoration: none;
-
 }
 
 .deal-btn:hover {
   opacity: 0.9;
   transform: scale(1.05);
 }
+
 .icon1 {
   background-color: orangered;
   color: white;
@@ -395,8 +408,10 @@ width: 450px;
   width: 30px;
   height: 30px;
 }
-/* deals section end */
 
+/* Deals Section Ends Here */
+
+/* Properties Section Starts Here */
 
 .properties {
   width: 98%;
@@ -415,16 +430,12 @@ width: 450px;
   margin-left: 50px;
   gap: 90px;
   margin: 60px;
-
-
 }
 
 .properties-cards {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-
-
 }
 
 .properties-cards img {
@@ -460,7 +471,6 @@ width: 450px;
   align-items: center;
 }
 
-
 .visit {
   color: white;
   background-color: black;
@@ -469,15 +479,16 @@ width: 450px;
   border-radius: 20px;
   margin-left: 110px;
   margin-bottom: 15px;
-
 }
-/* properties section end */
+
+/* Properties Section Ends Here */
+
+/* Contact Section Starts Here */
 
 .contact-section {
- text-align: center;
+  text-align: center;
   padding: 50px 20px;
   color: white;
-  
 }
 
 .title {
@@ -523,7 +534,6 @@ iframe {
   border-radius: 20px;
   font-size: 14px;
   background-color: lightgray;
-
 }
 
 .submit {
@@ -551,7 +561,6 @@ iframe {
   align-items: center;
   justify-content: space-evenly;
   width: 250px;
-
 }
 
 .info p {
@@ -565,7 +574,11 @@ iframe {
   font-size: 16px;
   color: black;
 }
-/* contact section end */
+
+/* Contact Section Ends Here */
+
+/* Footer Section Starts Here */
+
 footer {
   height: 50px;
   background-color: black;
@@ -576,20 +589,22 @@ footer {
   padding: 10px;
   width: 100%;
 }
-/* footer section end */
+
+/* Footer Section Ends Here */
+
+/* Properties Page Starts */
+
+/* Proprties Bg Starts Here */
 
 .head {
   background-image: url(./assets/images/page-heading-bg.jpg);
   height: 400px;
-
 }
 
 .properties-header {
   align-items: center;
   color: white;
   padding: 150px 550px;
-
-
 }
 
 .properties-header p {
@@ -599,14 +614,12 @@ footer {
   align-items: center;
   text-align: center;
   padding: 10px;
-
 }
 
 .properties-header h2 {
   margin-left: 50px;
   font-size: xx-large
 }
-
 
 .button {
   margin: 20px auto;
@@ -627,6 +640,10 @@ footer {
   border-radius: 5px;
 }
 
+/* Proprties Bg Ends Here */
+
+/* Properies1 Starts Here */
+
 .properties1 {
   width: 98%;
 }
@@ -644,16 +661,12 @@ footer {
   margin-left: 50px;
   gap: 90px;
   margin: 60px;
-
-
 }
 
 .properties-cards1 {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-
-
 }
 
 .properties-cards1 img {
@@ -704,10 +717,11 @@ footer {
   padding: 10px;
 }
 
+/* Properies1 Ends Here */
+
 .number {
   margin: 20px auto;
   padding: 20px 580px;
- 
 }
 
 .num {
@@ -718,7 +732,7 @@ footer {
   border: 1px solid black;
 }
 
-.num1{
+.num1 {
   background-color: orangered;
   color: white;
   border-radius: 50%;
@@ -726,13 +740,15 @@ footer {
   border: 1px solid orangered;
 }
 
-/* properties section end */
+/* properties Page Ends */
 
+/* Properties Deals Page Starts */
+
+/* Properties Cards Starts */
 
 .property-detail {
   margin: 50px;
   display: flex;
-
 }
 
 .proper img {
@@ -765,22 +781,17 @@ footer {
 
 .best {
   padding: 0px 100px;
-} 
-.cards1{
-   border: 1px solid whitesmoke;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 400px;
 }
+
 .cards1 img {
   width: 40px;
   border-radius: 10px;
   height: 40px;
 }
 
-.property-left{
- margin: 90px;
- width: 50%;
+.property-left {
+  margin: 90px;
+  width: 50%;
 }
 
 .property-tag1 {
@@ -797,4 +808,78 @@ footer {
 
 #active {
   color: orangered;
-} 
+}
+
+/* Properties Cards Ends */
+
+/* Contact Page Starts */
+
+.contact-table {
+  margin: 60px;
+}
+
+.contact-table1 {
+  display: flex;
+  gap: 150px;
+}
+
+.contact-title .tag {
+  color: orangered;
+}
+
+.info-box {
+  border-radius: 1px solid;
+  padding: 10px 20px;
+  margin-top: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 200px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  margin: 20px;
+}
+
+.info-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.form1 {
+  background: whitesmoke;
+  width: 30%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px 30px;
+}
+
+.form1 form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.submit1 {
+  background-color: black;
+  color: white;
+  width: 150px;
+  border-radius: 12px;
+  font-size: large;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.googlemap {
+  height: 400px;
+  width: 100%;
+  border-radius: none;
+}
+
+/* Contact Page Ends */
