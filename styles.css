@@ -6,12 +6,9 @@
   max-width: 1200px;
   margin: auto;
 }
-
-.top-header {
-  padding: 8px 0;
-  font-size: 14px;
+.left i{
+  color: orangered;
 }
-
 .top-header .left span {
   margin-right: 20px;
 }
@@ -22,13 +19,16 @@
   font-size: x-large;
   cursor: pointer;
 }
-
-.right :hover {
-  background: blanchedalmond;
+.right i{
+  color: lightgray;
   border-radius: 50%;
-  transform: scale(1.05);
 }
 
+.right :hover {
+ 
+  border-radius: 80px;
+  transform: scale(1.05);
+}
 /* header end */
 
 .navbar {
