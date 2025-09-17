@@ -33,7 +33,7 @@
   <!-- Header Section Ends Here -->
 
   <!-- Nav Bar Starts Here -->
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="container">
       <h2 class="logo">VILLA</h2>
       <ul class="nav-links">
@@ -45,7 +45,7 @@
       <button class="schedule-btn">
         <span class="icon"><i class="fa-solid fa-calendar"></i></span>
         Schedule a visit
-      </button>    
+      </button>
     </div>
   </nav>
 
@@ -68,111 +68,116 @@
   <!-- Featured Section Starts Here -->
 
   <section class="featured container">
-    <div class="featured-left">
-      <img src="./assets/images/featured.jpg" alt="Apartment">
-    </div>
+    <div class="featured-start">
+      <div class="featured-left">
+        <img src="./assets/images/featured.jpg" alt="Apartment">
+      </div>
 
-    <div class="featured-middle">
-      <h4 class="section-tag">| FEATURED</h4>
-      <h2>Best Appartment <br>
-        & Sea View</h2>
+      <div class="featured-middle">
+        <h4 class="section-tag">| FEATURED</h4>
+        <h2>Best Appartment <br>
+          & Sea View</h2>
 
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-              aria-expanded="true" aria-controls="collapseOne" id="active">
-              Best Useful Links?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Get the <b>best Villa</b> website template in HTML CSS <br>
-              and Bootstrap for your business. XYZ provides <br>
-              you the <a href="#">best service</a>in the world.
-              Please tell your friends about it.
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne" id="active">
+                Best Useful Links?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Get the <b>best Villa</b> website template in HTML CSS <br>
+                and Bootstrap for your business. XYZ provides <br>
+                you the <a href="#">best service</a>in the world.
+                Please tell your friends about it.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How does this work ?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Get the <b>best Villa</b> website template in HTML CSS <br>
+                and Bootstrap for your business. XYZ provides <br>
+                you the <a href="#">best service</a>in the world.
+                Please tell your friends about it.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Why is Villa Agency the best ?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Get the <b>best Villa</b> website template in HTML CSS <br>
+                and Bootstrap for your business. XYZ provides <br>
+                you the <a href="#">best service</a>in the world.
+                Please tell your friends about it.
+              </div>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              How does this work ?
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Get the <b>best Villa</b> website template in HTML CSS <br>
-              and Bootstrap for your business. XYZ provides <br>
-              you the <a href="#">best service</a>in the world.
-              Please tell your friends about it.
+      </div>
+
+      <div class="cards">
+        <div class="card p-3  border-0 mb-3">
+          <div class="d-flex align-items-center">
+            <img src="./assets/images/info-icon-01.png" alt="Area" class="feature-icon me-3">
+            <div>
+              <h5 class="fw-bold">250 m2</h5>
+              <small class="text-muted">Total Flat Space</small>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Why is Villa Agency the best ?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Get the <b>best Villa</b> website template in HTML CSS <br>
-              and Bootstrap for your business. XYZ provides <br>
-              you the <a href="#">best service</a>in the world.
-              Please tell your friends about it.
+        <hr>
+
+        <div class="card p-3  border-0 mb-3">
+          <div class="d-flex align-items-center">
+            <img src="./assets/images/info-icon-02.png" alt="Contract" class="feature-icon me-3">
+            <div>
+              <h5 class=" fw-bold">Contract</h5>
+              <small class="text-muted">Contract Ready</small>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <div class="card p-3  border-0 mb-3">
+          <div class="d-flex align-items-center">
+            <img src="./assets/images/info-icon-03.png" alt="Payment" class="feature-icon me-3">
+            <div>
+              <h5 class="fw-bold">Payment</h5>
+              <small class="text-muted">Payment Process</small>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <div class="card p-3  border-0">
+          <div class="d-flex align-items-center">
+            <img src="./assets/images/info-icon-04.png" alt="Safety" class="feature-icon me-3">
+            <div>
+              <h5 class="fw-bold">Safety</h5>
+              <small class="text-muted">24/7 Under Control</small>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="cards">
-      <div class="card p-3  border-0 mb-3">
-        <div class="d-flex align-items-center">
-          <img src="./assets/images/info-icon-01.png" alt="Area" class="feature-icon me-3">
-          <div>
-            <h5 class="fw-bold">250 m2</h5>
-            <small class="text-muted">Total Flat Space</small>
-          </div>
-        </div>
+      <div class="featuredicon">
+       
       </div>
-      <hr>
-
-      <div class="card p-3  border-0 mb-3">
-        <div class="d-flex align-items-center">
-          <img src="./assets/images/info-icon-02.png" alt="Contract" class="feature-icon me-3">
-          <div>
-            <h5 class=" fw-bold">Contract</h5>
-            <small class="text-muted">Contract Ready</small>
-          </div>
-        </div>
-      </div>
-      <hr>
-
-      <div class="card p-3  border-0 mb-3">
-        <div class="d-flex align-items-center">
-          <img src="./assets/images/info-icon-03.png" alt="Payment" class="feature-icon me-3">
-          <div>
-            <h5 class="fw-bold">Payment</h5>
-            <small class="text-muted">Payment Process</small>
-          </div>
-        </div>
-      </div>
-      <hr>
-
-      <div class="card p-3  border-0">
-        <div class="d-flex align-items-center">
-          <img src="./assets/images/info-icon-04.png" alt="Safety" class="feature-icon me-3">
-          <div>
-            <h5 class="fw-bold">Safety</h5>
-            <small class="text-muted">24/7 Under Control</small>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <!-- Featured Section Ends Here -->
@@ -187,23 +192,28 @@
     </div>
   </div>
 
+  
   <div class="stats">
+
     <div class="stat">
       <h3>34</h3>
       <p>Buildings <br>Finished Now</p>
     </div>
+    <div class="orange1"></div>
 
     <div class="stat">
       <h3>12</h3>
       <p>Years <br>Experience</p>
     </div>
+    <div class="orange2"></div>
 
     <div class="stat">
       <h3>24</h3>
       <p>Awards <br>Won 2023</p>
     </div>
+    <div class="orange3"></div>
+    
   </div>
-
   <!-- Video Section Ends Here -->
 
   <!-- Deals Section Starts Here -->
@@ -275,12 +285,12 @@
         </div>
         <b>18 New Street Miami, OR 97219</b>
 
-        <p> Bedrooms: 8
-          Bathrooms: 8</p>
-        <p>Area: 545m2
-          Floor: 3
-          Parking: 6 spots</p>
-
+        <p> Bedrooms:<b>8</b>
+          Bathrooms:<b>8</b></p>
+        <p>Area:<b>545m2</b>
+          Floor:<b>3</b>
+          Parking:<b>6 spots</b></p>
+        <hr>
         <button class="visit">Schedule a visit</button>
       </div>
 
@@ -291,12 +301,12 @@
           <h3>$1.180.000</h3>
         </div>
         <b>54 Mid Street Florida, OR 27001</b>
-        <p>Bedrooms: 6
-          Bathrooms: 5</p>
-        <p>Area: 450m2
-          Floor: 3
-          Parking: 6 spots</p>
-
+        <p>Bedrooms:<b>6</b>
+          Bathrooms:<b>5</b></p>
+        <p>Area:<b>450m2</b>
+          Floor:<b>3</b>
+          Parking:<b>6 spots</b></p>
+        <hr>
         <button class="visit">Schedule a visit</button>
       </div>
 
@@ -307,12 +317,12 @@
           <h3>$1.460.000</h3>
         </div>
         <b>26 Old Street Miami, OR 38540</b>
-        <p>Bedrooms: 5
-          Bathrooms: 4</p>
-        <p>Area: 225m2
-          Floor: 3
-          Parking: 10 spots</p>
-
+        <p>Bedrooms:<b>5</b>
+          Bathrooms:<b>4</b></p>
+        <p>Area:<b>225m2</b>
+          Floor:<b>3</b>
+          Parking:<b>10 spots</b></p>
+        <hr>
         <button class="visit">Schedule a visit</button>
       </div>
 
@@ -325,12 +335,12 @@
           <h3>$584.500</h3>
         </div>
         <b>12 New Street Miami, OR 12650</b>
-        <p> Bedrooms: 4
-          Bathrooms: 3
-          Area: 125m2</p>
-        <p> Floor: 25th
-          Parking: 2 cars</p>
-
+        <p> Bedrooms:<b>4</b>
+          Bathrooms:<b>3</b>
+          Area: <b>125m2</b></p>
+        <p> Floor:<b>25th</b>
+          Parking:<b>2 cars</b></p>
+        <hr>
         <button class="visit">Schedule a visit</button>
       </div>
 
@@ -341,12 +351,12 @@
           <h3>$925.600</h3>
         </div>
         <b>34 Beach Street Florida, OR 42680</b>
-        <p>Bedrooms: 4
-          Bathrooms: 4
-          Area: 180m2</p>
-        <p>Floor: 38th
-          Parking: 2 cars</p>
-
+        <p>Bedrooms:<b>4</b>
+          Bathrooms:<b>4</b>
+          Area:<b>180m2</b></p>
+        <p>Floor:<b>38th</b>
+          Parking:<b>2 cars</b></p>
+        <hr>
         <button class="visit">Schedule a visit</button>
       </div>
 
@@ -357,12 +367,12 @@
           <h3>$450.000</h3>
         </div>
         <b>22 New Street Portland, OR 16540</b>
-        <p>Bedrooms: 3
-          Bathrooms: 2
-          Area: 165m2</p>
-        <p> Floor: 26th
-          Parking: 3 cars</p>
-
+        <p>Bedrooms:<b>3</b>
+          Bathrooms:<b>2</b>
+          Area:<b>165m2</b></p>
+        <p> Floor:<b>26th</b>
+          Parking:<b>3 cars</b></p>
+        <hr>
         <button class="visit">Schedule a visit</button>
       </div>
     </div>
